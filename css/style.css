@@ -84,8 +84,8 @@ figcaption {
 }
 
 .slide-image {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 0.25rem;
   aspect-ratio: 1/1;
 }
