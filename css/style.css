@@ -64,18 +64,25 @@ figcaption {
 }
 
 .slide .slide-image {
-  width: 250px;
-  height: 250px;
+  width: clamp(250px, 40vw, 450px);
+  height: auto;
   border-radius: 0.25rem;
   aspect-ratio: 1/1;
+  margin: 0 auto;
 }
 
 .slide .image-container {
   background-image: url(../images/pattern-bg.svg);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 42px;
+  padding: clamp(0.75rem, 5vw, 3rem);
   background-size: contain;
+  max-width: clamp(500px, 90vw, 800px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .slider-controls {
@@ -98,18 +105,3 @@ figcaption {
   border-bottom-right-radius: 50%;
 }
 
-
-
-@media screen and (min-width: 750px) {
-  .testimonial-slider-container {
-    background-size: 42%;
-    background-size: clamp(40%, 50dvw, 45%);
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .slide-image {
-    width: 450px;
-    height: 450px;
-  }
-}
