@@ -65,7 +65,7 @@ figcaption {
 }
 
 .slide .slide-image {
-  width: clamp(250px, 40vw, 450px);
+  width: clamp(250px, 40vw, 475px);
   height: auto;
   border-radius: 0.25rem;
   aspect-ratio: 1/1;
