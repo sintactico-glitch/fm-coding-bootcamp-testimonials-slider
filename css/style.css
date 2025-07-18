@@ -75,7 +75,7 @@ figcaption {
   background-image: url(../images/pattern-bg.svg);
   background-position: center;
   background-repeat: no-repeat;
-  padding: clamp(0.75rem, 5vw, 3rem);
+  padding: clamp(0.75rem, 5vw, 1.8rem);
   background-size: contain;
   max-width: clamp(500px, 90vw, 800px);
   width: 100%;
