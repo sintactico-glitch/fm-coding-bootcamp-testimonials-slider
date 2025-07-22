@@ -57,7 +57,7 @@ figcaption {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0;
+  padding: 2rem 0.5rem;
 }
 
 .slide .slide-role {
@@ -105,6 +105,13 @@ figcaption {
 .slider-control.next button {
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
+}
+
+.slide-quote {
+  text-align: center;
+  font-size: clamp(20px, 20px + 1vw, 32px);
+  line-height: 1.6;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 750px) {
