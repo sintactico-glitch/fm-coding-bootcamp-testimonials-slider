@@ -51,7 +51,7 @@ figcaption {
   background-position: bottom left;
   background-size: 75%;
 }
-
+ 
 .slide {
   display: flex;
   flex-direction: column;
