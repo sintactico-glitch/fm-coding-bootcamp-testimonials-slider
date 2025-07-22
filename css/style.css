@@ -114,9 +114,43 @@ figcaption {
   font-weight: 300;
 }
 
+.slide-name,
+.slide-role {
+  margin: 0;
+  font-size: clamp(16px, 16px + 0.5vw, 20px);
+}
+
+.slide-name {
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.slide-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (min-width: 750px) {
   .testimonial-slider-container {
     background-size: 42%;
     background-size: clamp(40%, 50dvw, 45%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slide-author {
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: self-start;
+  }
+
+  .slide-name {
+    margin-bottom: 0;
+  }
+
+  .slide-quote {
+    text-align: start;
   }
 }
